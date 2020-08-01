@@ -1,0 +1,22 @@
+/*
+Theme Name:     B2子主题
+Theme URI:      http: //7b2.com/
+Description:    Child theme for the seven
+Author:         子主题模版
+Author URI:     http: //7b2.com/
+Template:       b2
+Version:        0.1.5
+*/
+/*等级微调*/
+.sg-lv{font-size:21px;font-weight:400;text-indent:10px;letter-spacing:5px}
+.icon-lv0{color:#bfbfbf}.icon-lv1{color:#bfbfbf}.icon-lv2{color:#95ddb2}.icon-lv3{color:#92d1e5}.icon-lv4{color:#ffb37c}.icon-lv5{color:#ff6c00}.icon-lv6{color:red}.icon-lv7{color:#e52fec}
+.dahuiyuan{color: #fb7299!important;}
+.dahuiyuan a{color: #fb7299!important;}
+.h-renzhengType{height: 16px;line-height: 16px;border-radius: 4px;font-size: 12px;color: #fff;padding: 0 5px;vertical-align: middle;margin-right: 5px;background: #ffc107;}
+.h-vipType {height: 16px;line-height: 16px;border-radius: 4px;font-size: 12px;color: #fff;padding: 0 5px;background-color: #f45a8d;vertical-align: middle;margin-right: 5px;}
+.h-lvType {height: 16px;line-height: 16px;border-radius: 4px;font-size: 12px;color: #fff;padding: 0 5px;vertical-align: middle;margin-right: 5px;}
+.h-lvType[lvl="Lv0"] {background:#bfbfbf;}.h-lvType[lvl="Lv1"] {background:#bfbfbf;}.h-lvType[lvl="Lv2"] {background:#95ddb2;}.h-lvType[lvl="Lv3"] {background:#92d1e5;}.h-lvType[lvl="Lv4"] {background:#ffb37c;}.h-lvType[lvl="Lv5"] {background:#ff6c00;}.h-lvType[lvl="Lv6"] {background:red;}.h-lvType[lvl="Lv7"] {background:#e52fec;}
+
+/*顶部微调*/
+.top-user-avatar img {border-radius: 100%;}
+li > ul > .current-menu-item > a {background-color: #5cd1f0;color: #fff;text-decoration: none;}
