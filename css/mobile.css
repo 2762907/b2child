@@ -1,0 +1,64 @@
+@media screen and (max-width: 768px){
+	/*用户中心*/
+	.n-statistics {display: none;}
+	.user-panel {left: 0px;margin-top: -220px;}
+	.user-panel .avatar {width: 70px; height: 70px; max-width: 70px; min-width: 70px;top: 10px;}
+	.author-links {padding: 15px 10px;}
+	.author-links li {padding: 0px 20px;}
+	.author-page-right .section{display: none;}
+	#space-theme{display: none;}
+	
+	/*UP荣耀*/
+	.entry-header.computer {display: none;}
+	.entry-header.mobile {display: block;}
+
+	/*评论区*/
+	.comment-content-text {width: 300px;}
+	.children .comment-content-text {width: 300px;}
+	.comment-meta {position:relative;left:20px;}
+	.comment-content-text p {position:relative;left:20px;}
+	.comment-footer {left:20px;}
+	.comments-area .comments-area-content .comment-list .comment-item {left:0;}
+	.comment .gravatar {left:20px;top:18px;}
+	.comment-item-hidden {right:-35px;top:0;}
+	.comment-list .children article .gravatar {left:20px;}
+	.comment-list .children article .gravatar img{border-radius:50px;}
+	.com-form-button-l {padding:0px;width:66px;height:24px;color:#99a2aa;/*border:1px solid #e5e9ef;*/border-radius:4px;position:relative;z-index:1;font-size:12px;text-align:center;line-height:22px;margin-left:1px;margin-top:-16px;cursor:pointer;display:inline-block;box-sizing:content-box;}
+	.user-face,.com-form-textarea button {display: none;}
+	.com-form-button-r.mobile {display: block;}
+	.card-decorator {top:4px;right:33px;width:44px;height:26px;}
+	
+	/*评论表情*/
+	.comment-smile-box.b2-show {left:calc(-24px + 50%);width:308px;padding:0;margin:92px -17px 0px;height:117px;overflow:auto;word-break:break-word;top:-216px;}
+	.comment-smile-box img {background-color:#fff;}
+	.comment-smile-box:after{left: calc(3% - 5px);}
+	.b2-smilies{height: 24px !important;width: 24px !important;}
+	.emotion-item.can-click{margin: 6px 9px 0px 5px;}
+	.emotion-item{width: 30px!important;height: 30px;}
+	
+	/*PC端404页面*/
+	.error-container {display: none;}
+	
+	/*手机端404页面*/
+	.error-404 {min-height:500px;}
+	.error-404 h1 {margin: -70px 0 16px;}
+	.recom-wrap .no-result.none {display: block}
+	.recom-wrap .no-result{width: 100%;background:url('//ae01.alicdn.com/kf/Uf39e61b467e543c7ad15644c4088c1b5P.png') no-repeat 50% 50%;background-color:#fff;height:400px;line-height:240px;text-align:center;margin-top:20px;display:none;}
+	.error-wrap .text{font-size:20px}
+	.recom-wrap {width: 100%;}
+	.error-404.not-found.box.pos-r {display: block;}
+	.w37 {width: 100%;}
+	
+	/*网站底部*/
+	.footer-bottom {height: 85px;}
+	
+	/*热门文章排行榜*/
+	#ranking .b-wrap {width:100%;}
+	#ranking .ranking-menu li {margin-left:0;}
+	#ranking .ranking-item .num,.ranking-item .content .info .pts {display:none;}
+	#ranking .ranking-item .content {padding:20px 0 0 10px;}
+	
+	/*首页文章*/
+	.list-footer svg {display: none;}
+
+}

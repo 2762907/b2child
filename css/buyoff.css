@@ -1,0 +1,41 @@
+br {display:none;}
+body .tai_luck_block {padding:15px;background-color:#fff;margin:10px 0;}
+.tai_luck_block {margin:0 0 1px;}
+body .log-box table {width:100%;text-align:center;line-height:2.5;}
+table {border-collapse:collapse;border-spacing:0;}
+body .tai_luck_block .log-box table tr th {font-weight:bold;background:#f6f6f6;}
+body .tai_luck_block .log-box tr th,body .log-box table tr td {border:1px solid #ddd;text-align:center;}
+body .loss-color {color:#ff4876;}
+.luck_time_color {color:#ff4876;}
+body .profit-color {color:#13ce63;}
+body b {font-weight:bold;display:inline-block;margin:0 5px;}
+.padding-bottom {padding-bottom:15px;}
+.hide {display:none;}
+.justify-space-between {justify-content:space-between;}
+.display-flex {display:flex;}
+.tai_luck_block.mine-info {position:relative;}
+.tai_luck_block.mine-info .avatar {width:80px;height:80px;border-radius:10px;margin-right:10px;}
+.tai_luck_block.mine-info .name-box h3 {margin:0 0 10px;border:none;}
+.tai_luck_block h3 {font-weight:bold;font-size:18px;padding-left:5px;margin-bottom:15px;border-left:3px solid #13ce63;}
+.tai_luck_block b {font-weight:bold;display:inline-block;margin:0 5px;}
+.tai_luck_block .rule-box ul {padding-left:30px;list-style:decimal-leading-zero;}
+.tai_luck_block .tips {margin:10px 0;color:#ffa600;}
+.align-center {align-items:center;}
+.justify-center {justify-content:center;}
+.tai_luck_block .card-box .card-item {width:26vw;height:26vw;background-color:#eee;border-radius:10px;cursor:pointer;}
+.tai_luck_block .card-box .card-item span {font-size:58px;color:#333;}
+.tai_luck_block .card-box .card-item.active {background-color:#13ce63;}
+.tai_luck_block .card-box .card-item.active span {color:rgba(50,16,87,0);}
+.tai_luck_block .card-box .card-item.active:before {content:"押";font-size:58px;color:#fff;}
+.tai_luck_block .stake-box .stake-buttons {flex-wrap:wrap;margin:-5px 0 10px;}
+.tai_luck_block .stake-box .button {color:#000;display:block;width:30%;margin:5px 0;background:none;border:1px solid #ccc;height:36px;border-radius:5px;}
+.tai_luck_block .stake-box .button.active {font-weight:bold;color:#12ac55;border-color:#13ce63;background-color:#ebfff4;}
+.tai_luck_block .stake-box .button.submit {width:100%;background-color:#13ce63;border:none;color:#fff;height:42px;}
+.tai_luck_block .stake-box .button.submit:hover {background-color:#12ac55;}
+.tai_luck_block .stake-box .button.submit:disabled {background-color:#eee;color:#aaa;cursor:no-drop;}
+@media (min-width:800px) {body #app {max-width:800px;margin:auto;background:#fff;padding:20px;}
+body .tai_luck_block {margin:0 0 1px;}
+body .tai_luck_block .card-box .card-item {width:32%;height:160px;}
+}
+@media screen and (max-width:768px) {br {display:block;}
+}

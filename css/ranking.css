@@ -1,0 +1,38 @@
+/*热门文章排行榜*/
+#ranking {font:12px Helvetica Neue,Helvetica,Arial,Microsoft Yahei,Hiragino Sans GB,Heiti SC,WenQuanYi Micro Hei,sans-serif}
+#ranking a:hover {outline:0;color:#00a1d6!important;text-decoration:none;cursor:pointer;}
+#ranking .main-inner {margin:0 auto;position:relative;}
+#ranking .b-wrap {width:1414px;margin:0 auto;}
+#ranking .main-inner .ranking-container {border:0;margin:20px 0;border-radius:4px;}
+#ranking .ranking-list-wrap {background:#fff;}
+#ranking .ranking-menu,.ranking-menu li {text-align:center;}
+#ranking .ranking-menu,.ranking-menu li {text-align:center;}
+#ranking .ranking-menu li {width:115px;height:40px;font-size:18px;line-height:25px;padding:0 12px;margin-left:52px;display:inline-block;cursor:pointer;}
+#ranking .ranking-menu li:first-child {margin-left:0;}
+#ranking .ranking-menu li.active {color:#00a1d6;height:38px;border-bottom:2px solid #00a1d6;}
+#ranking .ranking-menu li .ranking-icon {display:inline-block;width:30px;height:30px;vertical-align:middle;background:url(//static.hdslb.com/images/base/icons.png) no-repeat;}
+#ranking .ranking-menu li .ranking-icon.all {background-position:-83px -979px;}
+#ranking .ranking-menu li .ranking-icon.quarter {background-position:-83px -1041px;}
+#ranking .ranking-menu li .ranking-icon.month {background-position:-83px -1107px;}
+#ranking .ranking-menu li .text {margin-left:5px;font-size:16px;}
+#ranking .ranking-item {transition:.2s;overflow:hidden;border-bottom:1px solid #e5e9ef;position:relative;height:110px;}
+#ranking .ranking-item:hover {box-shadow:0 2px 5px #ccc;}
+#ranking .ranking-item .num {width:70px;height:70px;position:absolute;top:20px;left:0;line-height:70px;text-align:center;font-size:36px;font-weight:700;color:#b8c0cc;font-family:simhei;}
+#ranking .ranking-item .content {padding:20px 0 0 70px;overflow:hidden;}
+#ranking .ranking-item .content .img {position:relative;float:left;}
+#ranking .ranking-item .content .img a {display:inline-block;}
+#ranking .ranking-item .content .img .cover {width:114px;height:70px;}
+#ranking .cover img {display:block;width:100%;height:100%;}
+#ranking .ranking-item .content .img .cover img {border-radius:4px;}
+#ranking .ranking-item .content .info {padding-bottom:20px;margin-left:130px;height:70px;position:relative;display:block;}
+#ranking .ranking-item .content .info:hover {cursor:pointer;}
+#ranking .ranking-item .content .info .title {height:20px;line-height:20px;font-weight:700;font-size:14px;color:#222;transition:.3s;display:inline-block;}
+#ranking .ranking-item .content .info .detail {margin-top:20px;color:#99a2aa;}
+#ranking .ranking-item .content .info .detail .data-box {width:80px;margin-right:20px;white-space:nowrap;text-overflow:ellipsis;overflow:hidden;}
+#ranking .ranking-item .content .info .detail .b-icon {width:12px;height:12px;margin-right:5px;display:inline-block;vertical-align:text-top;background:url(//ae01.alicdn.com/kf/H332fa80fe9c942468e9c02c848278807x.png) no-repeat;}
+#ranking .ranking-item .content .info .detail .b-icon.play {background-position:-282px -90px;}
+#ranking .ranking-item .content .info .detail .b-icon.view {background-position:-282px -218px;}
+#ranking .ranking-item .content .info .detail .b-icon.author {background-position:-282px -154px;}
+#ranking .ranking-item .content .info .detail a {color:#99a2aa;}
+#ranking .ranking-item .content .info .pts {height:20px;color:#b8c0cc;line-height:20px;position:absolute;bottom:40px;right:20px;text-align:center;}
+#ranking .ranking-item .content .info .pts div {color:#00a1d6;font-weight:700;font-size:16px;margin-bottom:12px;}

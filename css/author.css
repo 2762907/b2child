@@ -1,0 +1,135 @@
+/*用户中心整体CSS*/
+.row:first-child {border-top: none;height: 44px;line-height: 44px;white-space: nowrap;position: relative;left: 20px;}
+.item {display: inline-block;line-height: 44px;width: 49%;}
+.item span {display: inline-block;}
+.icon-uid {color: #7cd4f2;}
+.icon-birthday {color: #f9c86d;}
+.icon-post:before{color: #fb7299;}
+.icon-comments:before {color: #02b5da;}
+.icon-collections:before {color: #f3a034;}
+.icon-settings:before {color: #23c9ed;}
+.user-w-name a svg {width: 18px;}
+.avatar svg {width: 20px;height: 20px;}
+.user-panel-info p {background: 0;}
+.user-panel {margin-top: -175px;top: 50px;left: -10px;}
+.user-panel .avatar {border-radius: 100%;}
+.editor-avatar {border-radius: 100%;}
+.h-basic-spacing {margin-top: 8px;}
+.h-sign {color: #d6dee4;font-size: 12px;line-height: 26px;height: 26px;width: 740px;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;font-family: Arial;}
+.name {color: #fff;display: inline-block;margin-right: 5px;font-weight: 700;line-height: 18px;font-size: 18px;vertical-align: middle;}
+.author-links .picked a:hover {color: #00a1d6;}
+.author-links .picked a {border-bottom: 2px solid #00a1d6;}
+.gender.male[data="0"]:before {content: "\e65e";border-radius: 10px;background-color: #ff758f;color: #fff;font-size: 16px;}
+.gender.male[data="1"]:before {content: "\e65f";border-radius: 10px;background-color: #5fd4f2;color: #fff;font-size: 16px;}
+@media screen and (min-width: 768px) { 
+.user-panel-editor-button {background: rgba(0,0,0,.45);box-shadow: 0 0 0 2px hsla(0,0%,100%,.3);border-radius: 4px;cursor: pointer;display: inline-block;font-size: 14px;float: left;text-align: center;margin: 0 20px 17px 0;position: relative;top: -20px;}
+.user-follow {position: relative;top: -40px;}
+.user-panel-editor-button a {color: #fff!important;border: 0;}
+.h-f-btn {background:rgba(0,0,0,.45)!important;box-shadow:0 0 0 2px hsla(0,0%,100%,.3);border-radius:4px;color:#fff!important;cursor:pointer;display:inline-block;font-size:14px;float:left;text-align:center;margin:0 20px 17px 0;border:0;}
+.h-follow {background:#f25d8e!important;box-shadow:0 0 0 2px #fff;color:#fff;}
+.user-panel .avatar {width: 64px;height: 64px;max-width: 64px;min-width: 64px;border: 2px solid #fff;top: 50px;}
+.editor-avatar span {font-size: 12px;}
+.author-links {border-bottom: 10px solid #f5f6f7;}
+.author-header {position: relative;top: -15px;}
+.author-table {position: relative;top: -30px;}
+.h-gradient {position: absolute;bottom: 0;left: 0;width: 100%;height: 84px;background-image: url(//ae01.alicdn.com/kf/H8ed0d696822f40caa81d70143fab1fbdn.png);background-repeat: repeat-x;}
+.mask-wrapper {padding-top: 15%;}
+.icon-settings:before,.icon-collections:before,.icon-comments:before,.icon-post:before {display: inline-block;width: 20px;font-size: 20px;margin-right: 4px;vertical-align: middle;}
+.author-links {padding: 0px 10px;}
+.author-links li {padding: 15px 30px;}
+.n-statistics {float:right;height:66px;position:relative;left:15%;}
+.n-data {display:-ms-flexbox;display:flex;-ms-flex-direction:column;flex-direction:column;-ms-flex-pack:center;justify-content:center;float:left;width:58px;height:66px;padding:10px 0;text-align:center;box-sizing:border-box;}
+.n-data-k {line-height: 14px;font-size: 12px;color: #99a2aa;}
+.n-data-v {line-height: 16px;margin-top: 5px;color: #222;font-size: 12px;}
+.space-theme-trigger {background-image:url(//ae01.alicdn.com/kf/H337599e38b9548c6b3d8cb8ab5bbcca3O.png);border-radius:0 4px 0 0;background-repeat:no-repeat;background-position:0px 0px;cursor:pointer;width:58px;height:49px;transition:opacity .2s ease;position:absolute;top:0;right:0;}
+.space-theme-trigger:hover {background-position:-522px 0px;}
+.author-page-right{width: 350px;}
+.author-page-right .section {position:relative;}
+.author-page-right .section:last-child {border-bottom:1px solid #eee;}
+.author-page-right .section {background:#fff;border:1px solid #eee;border-radius:4px;padding:15px 20px 18px;margin-bottom:10px;}
+.author-page-right .section .user-auth.no-auth {margin: -19px -47px -19px;height: 80px;line-height: 20px;}
+.author-page-right .section .user-auth.no-auth .icon-auth {width: 100px;height: 70px;display: inline-block;vertical-align: middle;margin-top: 8px;}
+.author-page-right .section .user-auth.no-auth .no-auth-title {display:inline-block;position:relative;top:20px;left:20px;}
+.author-page-right .section .user-auth.no-auth .no-auth-title .goto-auth {cursor:pointer;font-size:18px;color:#222;display:block;margin-bottom:4px;}
+.author-page-right .section .user-auth.no-auth .no-auth-title span {font-size:12px;color:#99a2aa;}
+.author-page-right .section.elec {padding-top:15px;}
+.author-page-right .elec .elec-trigger {background:#f25d8e;border-radius:4px;box-shadow:0 4px 4px rgba(255,112,159,.3);color:#fff;cursor:pointer;display:inline-block;font-size:18px;line-height:50px;padding:0 24px}
+.author-page-right .elec .elec-trigger:hover {background:#ff709f}
+.author-page-right .elec .elec-trigger:hover+.elec-map .elec-status {background-image:url(//ae01.alicdn.com/kf/He33b075a3ea747d9bb93cf2a43884b4eT.png)}
+.author-page-right .elec .elec-trigger:hover+.elec-map .elec-status-bg {width:156px}
+.author-page-right .elec-trigger-icon.icon {display:inline-block;background-image:url(//ae01.alicdn.com/kf/H492348758fa8430394c406713b8de1fdJ.png);}
+.author-page-right .elec-trigger-icon.icon {vertical-align:middle;background-repeat:no-repeat;}
+.author-page-right .elec .elec-trigger-icon {background-position:-278px -918px;width:20px;height:24px;vertical-align:middle;margin-right:12px}
+.author-page-right .elec #elec-hover-bg-preloader {background-image:url(//ae01.alicdn.com/kf/H7e5c0200b8044351804aee813e2d908eB.gif);display:none}
+.author-page-right .elec .elec-status {background-image:url(//ae01.alicdn.com/kf/Hafbbb07b93a348a48242400941ca25959.png);color:#99a2aa;font-weight:700;margin-left:172px;width:44.6%;padding:0 30px;height:74px;line-height:74px;text-align:right;position:absolute;top:8px;right:0;z-index:2;font-size:12px;}
+.author-page-right .elec .elec-status-bg {background-image:url(//ae01.alicdn.com/kf/Hf2d474ac95f54535b9e8682eb231e1a4X.gif);width:0;height:74px;position:absolute;top:8px;left:192px;transition:width .4s ease;z-index:1}
+.author-page-right .elec .elec-status-bg-grey {background:#e5e9ef;width:156px;height:74px;position:absolute;top:8px;right:0;z-index:0}
+.author-page-right .elec .elec-count {color:#6d757a;font-weight:700}
+
+}
+
+/*头图*/
+.icon {vertical-align:middle;background-repeat:no-repeat;}
+#space-theme {transition:bottom .4s ease;position:fixed;left:0;bottom: -999px;width:100%;z-index:1000;background:rgba(0,0,0,.8);color:#fff;}
+#space-theme.theme-show {bottom:0}
+#space-theme .theme-tab {cursor:pointer;display:block;float:left;font-size:18px;margin-right:10px;line-height:52px;width:130px;text-align:center}
+#space-theme .theme-tab.active {background-color:#111}
+#space-theme .theme-topright {float:right;margin-top:10px;}
+#browser-version-tip #close-browser-tip,.icon {display:inline-block;background-image:url(//s1.hdslb.com/bfs/static/jinkela/space/asserts/icons.png);}
+#space-theme .theme-close {background-position:-527px -271px;cursor:pointer;width:32px;height:32px;margin-right:-10px;}
+#space-theme .theme-close:hover {background-position:-591px -271px;}
+
+#space-theme .theme-panel {background:#111;padding:25px 0 15px;position:relative}
+#space-theme .theme-list {position:relative;height:280px;overflow:auto;}
+#space-theme .toutu-item.active, #space-theme .toutu-item.for-sale.active {border-color: #fff;}
+#space-theme .toutu-item.active .selected-icon, #space-theme .toutu-item.for-sale.active .selected-icon {display: block;}
+#space-theme .toutu-item .selected-icon {display: none;background-image: url(//s1.hdslb.com/bfs/static/jinkela/space/asserts/icons.png);background-position: -642px -650px;content: "";position: absolute;width: 45px;height: 45px;top: -3px;right: 0;}
+#space-theme .toutu-item.active .toutu-detail, #space-theme .toutu-item.for-sale.active .toutu-detail {border-color: #fff;}
+#space-theme .toutu-item {border:3px solid #555;border-radius:12px;cursor:pointer;float:left;width:310px;height:96px;position:relative;margin:0 25px 20px 0;background-size:cover;background-position:50%;}
+#space-theme .toutu-item:hover {z-index:3;border-bottom-left-radius:0;border-bottom-right-radius:0;}
+#space-theme .toutu-item:hover .toutu-detail {left: -3px;opacity:1;}
+#space-theme .toutu-detail {background-repeat:no-repeat;border: 3px solid #555;border-radius:12px;opacity:0;transition:opacity .2s ease;overflow:hidden;position:absolute;top: -3px;left: -9999px;width: 290px;}
+#space-theme .toutu-meta {background:#333;line-height:1em;margin-top:93px;padding:10px;position:relative;}
+#space-theme .toutu-title {color:#fff;margin-bottom:10px}
+#space-theme .toutu-price {color:#ccd0d7}
+#space-theme .toutu-action {position:absolute;bottom:10px;right:10px}
+#space-theme .toutu-btn {border-radius:4px;display:inline-block;text-align:center;line-height:24px;margin-left:7px;width:54px}
+#space-theme .toutu-btn.use {background:#00a1d6}
+#space-theme .toutu-btn.use:hover {background:#00b5e5}
+@media (min-width:1420px) {
+    #space-theme .theme-panel .theme-list[name=toutu] {padding-left:0}
+    #space-theme .toutu-item {width:290px;height:90px;margin-right:20px;}
+}
+.clearfix:after {content:".";display:block;height:0;clear:both;visibility:hidden}
+
+/*关注页&粉丝页*/
+.following-avatar img {border-radius: 50px;}
+.fans-action-btn {float:left;display:block;line-height:22px;margin-left:15px;font-size:0;color:#6d757a;text-align:center;vertical-align:middle;cursor:pointer;}
+.fans-action-btn.follow.yes {background-color:#e5e9ef;position:relative;border-radius:4px;font-size:0;color:#6d757a;line-height:16px;border:0;}
+.fans-action-btn.follow {border:1px solid #ccd0d7;border-radius:4px;width:103px;height:30px;padding:0px 0px;}
+.fans-action-text {line-height:16px;font-size:13px;vertical-align:middle;background:0;border:0;color:#6d757a;padding:7px 16px;}
+
+/*更换网站背景*/
+.mn {display:inline;margin-right:10px;padding-top:10px;width:800px;}
+.alert-info,.alert-danger,.alert-warning,.alert-success {color:#fff;}
+.alert,.alert-default {background-color:#fff;color:#fff;}
+.alert-info {background-color:#2cb8f7;color:#fff;}
+.alert {border:0;border-radius:0;}
+.alert {padding:15px;margin-bottom:20px;border:1px solid transparent;border-radius:4px;}
+.alert>p,.alert>ul {margin-bottom:0;}
+#theme-container .item {display:inline-block;margin:0 55px;overflow:hidden;position:relative;cursor:pointer;width:auto;line-height:25px;}
+#theme-container .item img {width:120px;height:100%;}
+#theme-container p {width:120px;padding:5px;background-color:rgba(0,0,0,0.4);color:#FFF;text-align:center;position:absolute;bottom:0;}
+
+/*公共移除头部*/
+.header .top-style {background: rgba(255,255,255,0.94);}
+.site-title {color: #333;}
+.top-menu ul li.depth-0 {color: #333;font-size: 13px;}
+.header .top-style.animateIn, .header .top-style.animateOut {background: rgba(255,255,255,0.94);}
+.blur-bg {background-image: none;}
+#banner__container {height: 0;margin-top: 0;}
+.ribbon_border {height: 0;background-image: none;position: relative;bottom: 0;background-repeat: repeat;}
+.header-user {top: 0px;}
+.top-user-avatar img {width: 30px;height: 30px;}
+.avatar-parent {top: 3px;}
+.top-user-box-drop {top: 54px;right: -20px;}
