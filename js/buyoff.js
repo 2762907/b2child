@@ -1,6 +1,6 @@
 var jQ = jQuery.noConflict();
 
-if(/^https:\/\/saigaocy\.xyz.*/i.test(window.location.href)){
+if(/^https:\/\/saigaocy\.club.*/i.test(window.location.href)){
     jQ(document).ready(function(jQ){
     	var timeID,intDiff,coax_int = jQ('#luck_coax_int').val();
     	jQ.ajax({
